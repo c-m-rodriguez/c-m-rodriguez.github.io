@@ -1,0 +1,142 @@
+$colorbgprimario: #0d6efd;
+$colorbgsecundario: #e15727;
+$colorbgterciario:#6f42c1;
+$colortituloprimario: red;
+$colortexto: black;
+$facebook: #3b5999;
+$instagram: #e4405f;
+$twitter: #55acee;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.encabezado {
+    img {
+        width: 150px;
+        border-radius: 75px;
+        margin-left: 90px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: $colortituloprimario;
+        margin-left: 50px;
+    }
+
+    nav {
+        font-size: 30PX;
+        font-family: 'Comic Neue', cursive;
+
+
+    }
+}
+
+.banner {
+    margin: 0px;
+}
+
+.novedades {
+    h2 {
+        background: linear-gradient($colorbgprimario, $colorbgsecundario);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        color: $colortexto;
+        font-weight: bold;
+        text-align: center;
+        margin: 0px;
+    }
+}
+
+.contenido {
+    background-color: $colorbgsecundario;
+
+    img {
+        margin-top: 30px;
+    }
+
+    p {
+        margin-top: 10px;
+        font-family: 'Comic Neue', cursive;
+        font-weight: bold;
+
+    }
+}
+
+.noticias {
+    h2 {
+        background: linear-gradient($colorbgsecundario, $colorbgprimario);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        color: black;
+        margin: 0px;
+    }
+}
+
+.news {
+    background-color: $colorbgprimario;
+    padding: 50px;
+    
+    img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .notiuno {
+        color: black;
+        margin-bottom: 10px;
+        border: 1px solid $colorbgsecundario;
+        padding: 15px 15px 10px 15px;
+        overflow: hidden;
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+    }
+
+}
+
+.pie {
+    background-color: $colorbgterciario;
+    display: flex;
+    align-items: center;
+    height: 46vh;
+    justify-content: center;
+    
+
+    ul li {
+        display: inline-block;
+        margin: 0 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+
+        a {
+            display: block;
+            padding: 0 10px;
+            background: $colorbgprimario;
+            color: white;
+            line-height: 50px;
+            font-size: 18px;
+            box-shadow: 0 3px 5px 0px black;
+            transition: .2s;
+
+
+        }
+    }
+}
+
+.pie ul li a:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 3px 5px 0px black;
+}
+

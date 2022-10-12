@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.encabezado img {
+  width: 150px;
+  border-radius: 75px;
+  margin-left: 90px;
+}
+.encabezado h1 {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: red;
+  margin-left: 50px;
+}
+.encabezado nav {
+  font-size: 30PX;
+  font-family: "Comic Neue", cursive;
+}
+
+.banner {
+  margin: 0px;
+}
+
+.novedades h2 {
+  background: linear-gradient(#0d6efd, #e15727);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+}
+
+.contenido {
+  background-color: #e15727;
+}
+.contenido img {
+  margin-top: 30px;
+}
+.contenido p {
+  margin-top: 10px;
+  font-family: "Comic Neue", cursive;
+  font-weight: bold;
+}
+
+.noticias h2 {
+  background: linear-gradient(#e15727, #0d6efd);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  margin: 0px;
+}
+
+.news {
+  background-color: #0d6efd;
+  padding: 50px;
+}
+.news img {
+  width: 100px;
+  height: 100px;
+}
+.news .notiuno {
+  color: black;
+  margin-bottom: 10px;
+  border: 1px solid #e15727;
+  padding: 15px 15px 10px 15px;
+  overflow: hidden;
+}
+.news .notiuno a {
+  text-decoration: none;
+  color: black;
+}
+
+.pie {
+  background-color: #6f42c1;
+  display: flex;
+  align-items: center;
+  height: 46vh;
+  justify-content: center;
+}
+.pie ul li {
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.pie ul li a {
+  display: block;
+  padding: 0 10px;
+  background: #0d6efd;
+  color: white;
+  line-height: 50px;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0px black;
+  transition: 0.2s;
+}
+
+.pie ul li a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 3px 5px 0px black;
+}/*# sourceMappingURL=main.css.map */
