@@ -1,0 +1,17 @@
+//extend
+//botones de footer
+%boton{
+            display: block;
+            padding: 0 10px;
+            background: $colorbgprimario;
+            line-height: 50px;
+            font-size: 18px;
+            box-shadow: 0 3px 5px 0px black;
+            transition: .2s;
+}
+
+//Mixin
+
+@mixin styles($color){
+    color: $color;
+}

@@ -1,3 +1,4 @@
+
 $colorbgprimario: #0d6efd;
 $colorbgsecundario: #e15727;
 $colorbgterciario:#6f42c1;
@@ -6,6 +7,9 @@ $colortexto: black;
 $facebook: #3b5999;
 $instagram: #e4405f;
 $twitter: #55acee;
+
+@import "../variables/extend";
+
 
 * {
     margin: 0;
@@ -120,17 +124,9 @@ $twitter: #55acee;
         height: 50px;
         text-align: center;
 
-        a {
-            display: block;
-            padding: 0 10px;
-            background: $colorbgprimario;
-            color: white;
-            line-height: 50px;
-            font-size: 18px;
-            box-shadow: 0 3px 5px 0px black;
-            transition: .2s;
-
-
+         a {
+            @extend %boton;
+            @include styles(white);
         }
     }
 }
