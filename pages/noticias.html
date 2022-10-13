@@ -16,34 +16,43 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="nav">
-            <section>
-                <img src="./imagenes/logo.jpg" alt="logo">
-            </section>
-
-            <h1>New World</h1>
-
-            <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="./index.html">HOME</a>
-                        </li>
-                        <li>
-                            <a href="./Manga.html">MANGAS</a>
-                        </li>
-                        <li>
-                            <a href="./Comics.html">COMICS</a>
-                        </li>
-                        <li>
-                            <a href="./pages/contacto.html">CONTACTO</a>
-                    </ul>
-                </nav>
-
-            </div>
-        </div>
-
+    <header class="encabezado">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="../imagenes/logo.jpg" alt="logo">
+                        <h1>NEW WORLD</h1>
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav m-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">COMICS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./manga.html">MANGAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./noticias.html">NOTICIAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
         <div class="nov">
             <h3>Noticias</h3>
         </div>
